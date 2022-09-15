@@ -1,27 +1,30 @@
-/** @jsx h */
+// main.tsx
 
-import blog, { ga, redirects, h } from "blog";
+/** @jsx h */
+import blog, { h } from "blog";
+import { Section } from './components/Section.jsx';
 
 blog({
-  title: "Kaan Akgundogdu",
-  description: "This is my new blog.",
-  // header: <header>Your custom header</header>,
-  // section: <section>Your custom section</section>,
-  // footer: <footer>Your custom footer</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  author: "Rajdeep singh",
+  title: "Hello, my name is Rajdeep Singh",
+  description: "Nice to meet you",
+  avatar:"https://avatars.githubusercontent.com/u/62032779?v=4",
   avatarClass: "rounded-full",
-  author: "An author",
-
-  // middlewares: [
-
-    // If you want to set up Google Analytics, paste your GA key here.
-    // ga("UA-XXXXXXXX-X"),
-
-    // If you want to provide some redirections, you can specify them here,
-    // pathname specified in a key will redirect to pathname in the value.
-    // redirects({
-    //  "/hello_world.html": "/hello_world",
-    // }),
-
-  // ]
+  coverTextColor:"white",
+  links: [
+    { title: "Email", url: "mailto:officialrajdeepsingh@gmail.com" },
+    { title: "GitHub", url: "https://github.com/officialrajdeepsingh" },
+    { title: "Twitter", url: "https://twitter.com/Official_R_deep" },
+    { title: "Linkedin", url: "https://www.linkedin.com/in/officalrajdeepsingh/" },
+  ],
+  lang: "en",
+  favicon: "favicon.ico",
+  section: <Section/>,
+  theme:"auto",
+  cover:"assets/logos/backgroundbanner.png",
+  ogImage: {
+    url: "http://localhost:8000/assets/logos/Frame.png",
+    twitterCard:  "summary_large_image" 
+  },
+  style:".markdown-body ul, .markdown-body ol { list-style: disc !important;}"
 });
