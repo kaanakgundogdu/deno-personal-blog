@@ -5,17 +5,16 @@ import blog, { h } from "blog";
 import { Section } from './components/Section.jsx';
 
 blog({
-  author: "Rajdeep singh",
-  title: "Hello, my name is Rajdeep Singh",
+  author: "Kaan Akgundogdu",
+  title: "Hello, my name is Kaan Akgundogdu",
   description: "Nice to meet you",
   avatar:"https://avatars.githubusercontent.com/u/62032779?v=4",
   avatarClass: "rounded-full",
   coverTextColor:"white",
   links: [
-    { title: "Email", url: "mailto:officialrajdeepsingh@gmail.com" },
-    { title: "GitHub", url: "https://github.com/officialrajdeepsingh" },
-    { title: "Twitter", url: "https://twitter.com/Official_R_deep" },
-    { title: "Linkedin", url: "https://www.linkedin.com/in/officalrajdeepsingh/" },
+    { title: "Email", url: "mailto:kaanakgundogdu@gmail.com" },
+    { title: "GitHub", url: "https://github.com/kaanakgundogdu" },
+    { title: "Linkedin", url: "https://www.linkedin.com/in/kaanakgundogdu/" },
   ],
   lang: "en",
   favicon: "favicon.ico",
