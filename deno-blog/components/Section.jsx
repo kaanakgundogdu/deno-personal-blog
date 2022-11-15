@@ -23,7 +23,7 @@ export function Section() {
             target="_blank"
             class="flex-shrink-0 text-white bg-indigo-500 border-0.2 py-4 px-4 focus:outline-none hover:bg-indigo-300 rounded text-lg mt-5 sm:mt-5"
           >
-            My Github Profile
+            My Linkedin Profile
           </a>
         </div>
       </div>
