@@ -2,7 +2,7 @@
 
 import blog, { h } from "blog";
 import { Section } from './components/Section.jsx';
-import { Header } from './components/Header.jsx';
+// import { Header } from './components/Header.jsx';
 import "https://deno.land/x/dotenv@v3.2.0/load.ts";
 
 
