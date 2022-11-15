@@ -8,7 +8,7 @@ import "https://deno.land/x/dotenv@v3.2.0/load.ts";
 
 blog({
   author: "Kaan Akgundogdu",
-  title: "Hello, my name is Kaan",
+  title: "Hi, my name is Kaan",
   description: "Welcome to my blog",
   // header:<Header/>,
   // showHeaderOnPostPage: true,
