@@ -6,7 +6,7 @@ import "https://deno.land/x/dotenv@v3.2.0/load.ts";
 
 
 blog({
-  author: "Rajdeep singh",
+  author: "Kaan Akgundogdu",
   title: "Hello, my name is Kaan",
   description: "Welcome to my blog",
   // avatar:`${Deno.env.get("URL")}assets/logos/sanji.png`,
@@ -22,10 +22,7 @@ blog({
   favicon: `${Deno.env.get("URL")}favicon.ico`,
   section: <Section/>,
   theme:"auto",
-  cover:`${Deno.env.get("URL")}assets/blog-images/white-bg.jpg`,
-  ogImage: {
-    url: `${Deno.env.get("URL")}assets/logos/Frame.png`,
-    twitterCard:"summary_large_image" 
-  },
+  //cover:`${Deno.env.get("URL")}assets/blog-images/white-bg.jpg`,
+  cover:`https://c4.wallpaperflare.com/wallpaper/401/408/860/dragon-ball-dragon-ball-z-frieza-manga-simple-background-hd-wallpaper-preview.jpg`,
   style:".markdown-body ul, .markdown-body ol { list-style: disc !important;}"
 });
