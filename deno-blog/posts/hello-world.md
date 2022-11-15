@@ -1,6 +1,7 @@
 ---
 title: Hello World! I am Kaan!
 publish_date: 2022-11-15
+snippet: "My name is Kaan and I am a developer from Turkey. I'm trying to learn every popular programing languages. "
 author: "Kaan Akgundogdu"
 # cover_html: <svg class="w-full" height="350" width="100%" background="black"><circle cx="50%" cy="170" r="150" stroke="white" stroke-width="10" fill="#7DE5ED" alpha="50%"/></svg>
 cover_html: <img class="circular--square asa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMBRebKAFM4Jr5pPUlXyysqp_CUXdIB0BXg&usqp=CAU" style="border-radius:20%; display:block;
