@@ -16,7 +16,6 @@ allow_iframes: true
 <br>
 <br>
 My name is Kaan and I am a developer from Turkey. I'm trying to learn every popular programing languages. I worked in mobile game industury for one and a half year. Currently my main goal is getting comfortable with C++ and Qt, then learning QML.
-
 <br>
 <br>
 <br>
